@@ -16,11 +16,11 @@ Vzhledem k tomu, že se jedná o osmici bitů, tak může nabývat 2^8^ (256) ho
 
 ## Proč datové typy?
 
-Všechna data v paměti počítače mají stejnou podobu. Vše je nějaká sekvence jedniček a nul. Abychom takto zapsaným datům dali nějaký význam a byli schopni s nimi pracovat, potřebujeme datové typy.
+Všechna data v paměti počítače mají stejnou podobu. Vše je nějaká sekvence bitů. Abychom takto zapsaným datům dali nějaký význam a byli schopni s nimi pracovat, potřebujeme datové typy.
 
 ## Co říkají datové typy?
 
-Datové typy udávají mnoho informací o datech:
+Datové typy udávají následující informace o datech, která reprezentují:
 
 - **Kódování**
 
