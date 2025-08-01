@@ -102,7 +102,7 @@ Pro kódování reálných čísel.
 
 Standardně zabírá 32 bitů.
 
-Obyčejný převod mezi binární a dekadickou soustavou není postačující. Často se stává, že i "krátké" desetinné dekadické číslo vyústí v binární soustavě v číslo s nekonečný rozvojem. Paměť počítače ale nekonečná není.
+Obyčejný převod mezi binární a dekadickou soustavou není postačující. Často se stává, že i "krátké" desetinné dekadické číslo vyústí v binární soustavě v číslo s nekonečným rozvojem. Paměť počítače ale nekonečná není.
 
 Kódování je proto složitější. Řídí se standardem [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754).
 
