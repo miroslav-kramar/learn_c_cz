@@ -62,7 +62,7 @@ Rozsah hodnot se pohybuje od -2&nbsp;147&nbsp;483&nbsp;648 do 2&nbsp;147&nbsp;48
 
 - **`unsigned int`**
 
-  Nejvýznamější bit se místo kódování znaménka používá pro kódování čísla. Výsledný rozsah hodnot je od 0 do 4&nbsp;294&nbsp;967&nbsp;295.
+  Nekóduje znaménko, pro kódování čísla používá všechny dostupné bity. Výsledný rozsah hodnot je od 0 do 4&nbsp;294&nbsp;967&nbsp;295.
 
 - **`short int`**
   
