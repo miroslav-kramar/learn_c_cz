@@ -24,7 +24,7 @@ Datové typy udávají následující informace o datech, která reprezentují:
 
 - **Kódování**
 
-  Způsob, jakým se data zakódují jako sekvence 1 a 0. Stejná kombinace jedniček a nul pro jeden datový typ představuje jinou hodnotu, než pro jiný.
+  Způsob, jakým se data zakódují jako sekvence 1 a 0. Stejná kombinace bitů pro jeden datový typ představuje jinou hodnotu, než pro jiný.
 
 - **Velikost v paměti**
 
@@ -56,7 +56,7 @@ V paměti 64bitových systémů zabírá z pravidla 32 bitů. Kolik je to bytů?
 
 Rozsah hodnot se pohybuje od -2&nbsp;147&nbsp;483&nbsp;648 do 2&nbsp;147&nbsp;483&nbsp;647. Proč zrovna tato čísla?
 
-Nejvýznamější bit ("ten nejvíc vlevo") se používá pro zakódování znaménka.
+*Nejvýznamnější bit* ("ten nejvíc vlevo") se používá pro zakódování znaménka.
 
 #### Varianty
 
