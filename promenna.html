@@ -294,8 +294,9 @@ přímo pomocí znaků.</p>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> f                <span class="op">=</span> <span class="fl">1.2</span><span class="bu">f</span><span class="op">;</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="dt">double</span> d               <span class="op">=</span> <span class="fl">3.14</span><span class="op">;</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> str<span class="op">[]</span>             <span class="op">=</span> <span class="st">&quot;Hello, World!&quot;</span><span class="op">;</span></span></code></pre></div>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="dt">long</span> <span class="dt">double</span> ld         <span class="op">=</span> <span class="fl">2.71</span><span class="bu">L</span><span class="op">;</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="dt">char</span> str<span class="op">[]</span>             <span class="op">=</span> <span class="st">&quot;Hello, World!&quot;</span><span class="op">;</span></span></code></pre></div>
 <p>Mimochodem, <code>char</code> literály skutečně zastupují
 odpovídající číselnou hodnotu v tabulce ASCII, lze tak s nimi i
 počítat:</p>
@@ -335,7 +336,8 @@ jen jeden z figurantů výpočtu typu <code>float</code>.</p>
 pracovat s nějakou konstantou: číselnou nebo jinou hodnotou, která bude
 vždy stejná. Pro tyto případy existuje klíčové slovo <code>const</code>,
 které proměnnou “zamkne” a znemožní nám ji měnit:</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="dt">const</span> <span class="dt">float</span> PI <span class="op">=</span> <span class="fl">3.14159</span><span class="bu">f</span><span class="op">;</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="dt">const</span> <span class="dt">float</span> PI <span class="op">=</span> <span class="fl">3.14159</span><span class="bu">f</span><span class="op">;</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>PI <span class="op">=</span> <span class="fl">2.71828</span><span class="bu">f</span> <span class="co">// NELZE!</span></span></code></pre></div>
 <p>Hlavní výhodou klíčového slova <code>const</code> je zpřehlednění a
 zkvalitnění kódu. Jednak dáváme jednoduše najevo, že se jedná o
 konstantu. A jednak tuto konstantu nemůžeme omylem přepsat, čímž se

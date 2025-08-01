@@ -64,6 +64,7 @@ char c                 = 'A';
 
 float f                = 1.2f;
 double d               = 3.14;
+long double ld         = 2.71L;
 
 char str[]             = "Hello, World!";
 ```
@@ -73,7 +74,6 @@ Mimochodem, `char` literály skutečně zastupují odpovídající číselnou ho
 ```c
 char c = 'A' + 1; // 'B'
 ```
-
 ## Automatická konverze
 
 V příkladu výše jste si mohli všimnout, že různé číselné typy mají různé literály. Ovšem v podstatě u všech jsou tyto varianty díky automatické konverzi datového typu dobrovolné.
@@ -131,6 +131,7 @@ Nejen při matematických výpočtech se nám stane, že budeme muset pracovat s
 
 ```c
 const float PI = 3.14159f;
+PI = 2.71828f // NELZE!
 ```
 
 Hlavní výhodou klíčového slova `const` je zpřehlednění a zkvalitnění kódu. Jednak dáváme jednoduše najevo, že se jedná o konstantu. A jednak tuto konstantu nemůžeme omylem přepsat, čímž se vyvarujeme případných chyb.
